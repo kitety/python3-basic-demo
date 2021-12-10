@@ -41,3 +41,11 @@ hex 转换为十六进制
 print(bin(1230))  # 2进制
 print(hex(0o10))  # 8进制
 print(oct(0x10))  # 16进制
+
+
+# 布尔值 數值類型
+print(type(True))
+print(type(False))
+
+print(int(True))
+print(int(False))
