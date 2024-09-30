@@ -47,5 +47,15 @@ print(oct(0x10))  # 16进制
 print(type(True))
 print(type(False))
 
-print(int(True))
-print(int(False))
+print(int(True))  # 1 数字
+print(int(False))  # 0 数字
+# 非0 都是true
+# 非空字符串 都是true
+# 非空列表 都是true
+# 非空字典 都是true
+print(bool(1))  # true
+# 0 都是false
+# 空字符串 都是false
+# 空列表 都是false
+# 空字典 都是false
+# None 都是false
