@@ -38,3 +38,26 @@ print(len(a))  # 3
 # 数组最大值
 a = [1, 2, 3]
 print(max(a))  # 3
+
+# 元素在数组中
+a = [1, 2, 3]
+print(2 in a)  # True
+print(2 not in a)  # False
+# 最大值
+a = [1, 2, 3]
+print(max(a))  # 3
+
+# 最小值
+a = [1, 2, 3]
+print(min(a))  # 1
+
+# 查询ascii码的值
+a = [1, 2, 3]
+print(ord('a'))  # 97
+
+# 转换为字符串
+a = [1, 2, 3]
+print(str(a))  # [1, 2, 3]
+
+# 转换为元组
+a = [1, 2, 3]
